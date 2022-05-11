@@ -151,7 +151,7 @@ h2 {
 }
 
 .main__video-list {
-    margin-top: 40px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
@@ -159,7 +159,7 @@ h2 {
   padding: 0;
 }
 .video-list__video-item {
-    width: 315px;
+  width: 315px;
   border-radius: 4px;
 }
 .video-item__image {
@@ -167,9 +167,9 @@ h2 {
   height: 200px;
 }
 .video-item__info-block {
-    margin-top: 16px;
-    display: flex;
-    align-items: flex-start;
+  margin-top: 16px;
+  display: flex;
+  align-items: flex-start;
 }
 .info-block__avatar {
 }
