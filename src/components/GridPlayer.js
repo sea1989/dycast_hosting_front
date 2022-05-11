@@ -3,13 +3,10 @@ import React, { useState } from "react";
 //import grid from "../assets/css/grid.module.css";
 import Player from './Player';
 import PlayerBar from './PlayerBar';
+import SuggestionsBlock from './SuggestionsBlock';
 
 export default function GridPlayer() {
   const [isPlayerWide, setIsPlayerWide] = useState(false);
-
-  const SuggestionsBlock = ({ className }) => (
-    <div className={className}>Suggestions</div>
-  );
 
   return (
     <div>
