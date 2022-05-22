@@ -8,6 +8,8 @@ import {
 
 import PageIndex from "./pages/page_index";
 import PageReg from "./pages/page_reg";
+import PageLand from "./pages/page_land";
+import PageAdd from "./pages/PageAdd";
 
 
 function App() {
@@ -17,23 +19,11 @@ function App() {
       <Routes>
         <Route path="/" element={<PageIndex />} />
         <Route path="/reg" element={<PageReg />} />
+        <Route path="/land" element={<PageLand />} />
+        <Route path="/new" element={<PageAdd />} />
       </Routes>
     </BrowserRouter>
 
-    // <Router>
-    //   <React.Fragment>
-    //     <Switch>
-
-    //       <Route path="/reg">
-    //         <PageReg />
-    //       </Route>
-
-    //       <Route path="/">
-    //         <PageIndex />
-    //       </Route>
-    //     </Switch>
-    //   </React.Fragment>
-    // </Router>
   );
 }
 

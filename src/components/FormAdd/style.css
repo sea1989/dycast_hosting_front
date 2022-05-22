@@ -1,0 +1,167 @@
+.form-add-panel {
+    background: #ffffff;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 40px 16px;
+    padding: 40px 44px;
+    max-width: 1408;
+
+    gap: 20px;
+
+    min-height: 200px;
+}
+
+.back {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 56px;
+}
+
+.form-add-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+
+    width: 65%;
+}
+
+.upload__info {
+    display: flex;
+    flex-direction: column;
+
+    background: #ebf3ff;
+    border-radius: 8px;
+
+    padding: 76px 20px 20px;
+
+    gap: 10px;
+
+    margin-top: -56px;
+}
+
+.upload img {
+    z-index: 1;
+    width: 100%;
+}
+
+.upload__info p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.upload__info span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-left: 10px;
+}
+
+.form-add {
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+
+    width: 100%;
+    margin-right: 211px;
+}
+
+.form-add fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-add legend {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-bottom: 20px;
+}
+
+.form-add label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #686868;
+
+    margin-bottom: 8px;
+}
+
+.form-add input,
+textarea {
+    margin-bottom: 20px;
+    border: 1px solid #cecece;
+
+    border-radius: 4px;
+
+    padding: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #cecece;
+}
+
+.cover-list {
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+    flex-wrap: wrap;
+}
+
+.tag-list {
+    display: flex;
+
+    gap: 8px;
+
+    flex-wrap: wrap;
+}
+
+.tag-item {
+    background: #3a86ff;
+    border-radius: 15px;
+
+    padding: 6px 8px 6px 12px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
