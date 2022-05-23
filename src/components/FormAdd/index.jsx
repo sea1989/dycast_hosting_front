@@ -41,7 +41,6 @@ export default function FormAdd() {
               placeholder='0x8A2366254A5A59E8073B0975399F7466B7830A66'
             />
           </fieldset>
-
           <fieldset>
             <legend>Video settings</legend>
             <label for='Title'>Title</label>
@@ -91,7 +90,88 @@ export default function FormAdd() {
               <li className='tag-item'>Tagname</li>
             </ul>
           </fieldset>
-          <input type='submit' value='Отправить' className='button-standart'/>
+          <fieldset>
+            <legend>Promotion settings</legend>
+            <div className='toggle-wrapper'>
+              <label class='switch'>
+                <input type='checkbox' />
+                <span class='slider round'></span>
+              </label>
+              <span className='toggle-text'>Enable Ads in the video</span>
+            </div>
+
+            <label for='Rating'>Rating:</label>
+
+            <div className='checkbox-wrapper'>
+              <input
+                type='radio'
+                id='restrictions'
+                name='fav_language'
+                value='restrictions'
+              />
+              <label for='restrictions'>
+                <span>G</span>No restrictions at all
+              </label>
+            </div>
+
+            <div className='checkbox-wrapper'>
+              <input
+                type='radio'
+                id='Children'
+                name='fav_language'
+                value='Children'
+              />
+              <label for='Children'>
+                <span>PG</span>Children are encouraged to watch the film with
+                their parents
+              </label>
+            </div>
+
+            <div className='checkbox-wrapper'>
+              <input type='radio' id='13' name='fav_language' value='13' />
+              <label for='13'>
+                <span>PG-13</span>Do not watch under 13
+              </label>
+            </div>
+
+            <div className='checkbox-wrapper'>
+              <input type='radio' id='17' name='fav_language' value='17' />
+              <label for='17'>
+                <span>R</span>Everyone under 17 must watch in parent company
+              </label>
+            </div>
+
+            <div className='checkbox-wrapper'>
+              <input
+                type='radio'
+                id='older'
+                name='fav_language'
+                value='older'
+              />
+              <label for='older'>
+                <span>NC-17</span>You must be older than 17 to watch that
+              </label>
+            </div>
+
+            <label for='Language:'>Language:</label>
+            <input
+              type='text'
+              id='Language:'
+              placeholder=' Select your Language'
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Other</legend>
+            <div className='checkbox-wrapper'>
+              <input type='radio' id='NSFW' name='fav_language' value='NSFW' />
+              <label for='NSFW'>NSFW</label>
+            </div>
+          </fieldset>
+
+          <hr />
+
+          <input type='submit' value='Отправить' className='button-standart' />
         </form>
       </div>
     </div>
